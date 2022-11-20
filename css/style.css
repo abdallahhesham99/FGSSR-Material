@@ -1,3 +1,52 @@
+:root {
+  --dark-color: #285495;
+  --gold-color: #ffcb00;
+}
 * {
   font-family: "Roboto", sans-serif;
 }
+body {
+  /* height: 10000px; */
+}
+/* ========================NAVBAR=================================== */
+
+.navbar {
+  background-color: var(--dark-color);
+}
+.navbar .navbar-brand img {
+  width: 150px;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: 700;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  color: var(--gold-color);
+}
+.navbar-toggler {
+  color: #fff;
+  font-size: 25px;
+  border: 2px solid #fff;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler[aria-expanded="true"] {
+  border-color: var(--gold-color);
+}
+/* =====================LANDING====================================== */
+.landing {
+  background-color: var(--dark-color);
+  height: 100vh;
+}
+.landing h1 {
+  font-size: 3rem;
+}
+.landing p {
+  color: var(--gold-color);
+  font-weight: 500;
+}
+/* =========================================================== */
