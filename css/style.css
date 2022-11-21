@@ -6,13 +6,16 @@
   font-family: "Roboto", sans-serif;
 }
 body {
-  /* height: 10000px; */
+  scroll-behavior: smooth;
 }
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
   position: absolute;
+}
+.section-title {
+  font-size: 2.3rem;
 }
 /* ========================NAVBAR=================================== */
 
@@ -63,4 +66,3 @@ body {
   color: var(--gold-color);
   font-weight: 500;
 }
-/* =========================================================== */
