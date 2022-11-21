@@ -8,6 +8,11 @@
 body {
   scroll-behavior: smooth;
 }
+a,
+a:hover {
+  color: #fff;
+}
+
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
@@ -22,10 +27,17 @@ body {
 .navbar {
   background-color: var(--dark-color);
 }
-.navbar .navbar-brand img {
-  width: 150px;
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center;
 }
-
+.navbar .navbar-brand img {
+  width: 70px;
+}
+.navbar .navbar-brand span {
+  font-weight: 700;
+  font-size: 24px;
+}
 .nav-link {
   color: #fff;
   font-weight: 700;
