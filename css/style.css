@@ -1,6 +1,10 @@
 :root {
   --dark-color: #285495;
-  --gold-color: #ffcb00;
+  --gold-color: #e9ba00;
+}
+::selection {
+  color: #fff;
+  background-color: var(--dark-color);
 }
 * {
   font-family: "Roboto", sans-serif;
@@ -104,4 +108,11 @@ section#diploma_schedule {
 .lecture-body button {
   font-size: 1.1rem;
   font-weight: 700;
+}
+.cs500-content_sections .all_sections-btn {
+  background-color: #31d2f2;
+}
+.cs500-content_sections .all_sections-btn:hover {
+  background-color: #269fb8;
+  color: #fff;
 }
