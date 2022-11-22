@@ -12,7 +12,9 @@ a,
 a:hover {
   color: #fff;
 }
-
+section {
+  padding-top: 120px;
+}
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
@@ -21,6 +23,10 @@ a:hover {
 }
 .section-title {
   font-size: 2.3rem;
+  font-weight: 700;
+}
+.section-desc {
+  color: var(--gold-color);
 }
 /* ========================NAVBAR=================================== */
 
@@ -77,4 +83,25 @@ a:hover {
 .landing p {
   color: var(--gold-color);
   font-weight: 500;
+}
+
+section#diploma_schedule {
+  padding: 0;
+}
+/* ===================================================== */
+.subjects-body button {
+  background-color: var(--dark-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.subjects-body button:hover {
+  background-color: #1e4072;
+  color: rgb(161, 161, 161);
+}
+/* ======================================================== */
+.lecture-body button {
+  font-size: 1.1rem;
+  font-weight: 700;
 }
