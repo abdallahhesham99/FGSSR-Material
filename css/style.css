@@ -109,8 +109,8 @@ section#diploma_schedule {
   font-size: 1.1rem;
   font-weight: 700;
 }
-.cs500-content_sections .btn-info {
-
+.cs500-content_sections .btn-info,
+.cs500-content_sections .btn-success {
   font-weight: 700;
   font-size: 1.1rem;
 }
