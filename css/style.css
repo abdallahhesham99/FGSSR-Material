@@ -93,7 +93,7 @@ section#diploma_schedule {
   padding: 0;
 }
 /* ===================================================== */
-.subjects-body button {
+.subjects-body button.customBtnColor {
   background-color: var(--dark-color);
   color: #fff;
   font-weight: 700;
@@ -111,8 +111,11 @@ section#diploma_schedule {
 }
 .cs500-content_sections .all_sections-btn {
   background-color: #31d2f2;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 .cs500-content_sections .all_sections-btn:hover {
-  background-color: #269fb8;
+  background-color: #1ca6c2;
   color: #fff;
 }
