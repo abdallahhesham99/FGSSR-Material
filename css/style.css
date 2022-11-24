@@ -100,7 +100,7 @@ section#diploma_schedule {
   font-size: 1.1rem;
 }
 
-.subjects-body button:hover {
+.subjects-body button.customBtnColor:hover {
   background-color: #1e4072;
   color: rgb(161, 161, 161);
 }
@@ -109,13 +109,8 @@ section#diploma_schedule {
   font-size: 1.1rem;
   font-weight: 700;
 }
-.cs500-content_sections .all_sections-btn {
-  background-color: #31d2f2;
-  color: #fff;
+.cs500-content_sections .btn-info {
+
   font-weight: 700;
   font-size: 1.1rem;
-}
-.cs500-content_sections .all_sections-btn:hover {
-  background-color: #1ca6c2;
-  color: #fff;
 }
