@@ -19,6 +19,12 @@ a:hover {
 section {
   padding-top: 120px;
 }
+.footer {
+  background-color: var(--dark-color);
+}
+.footer img{
+  width: 200px;
+}
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
